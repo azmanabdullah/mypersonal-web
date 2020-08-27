@@ -1,0 +1,9 @@
+<div class="download">
+  <div class="download__container">
+    <div class="download__detail">
+      <p>{{ .Get `name` }}</p>
+      <span>Tipe file: .{{ .Get `ext` }} | Ukuran file {{ .Get `size` }}</span>
+    </div>
+    <a class="download__link" target="__blank" href="{{ .Get `link` }}">Download disni</a>
+  </div>
+</div>
